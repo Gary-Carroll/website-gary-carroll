@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<a id="top"></a>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My Website</title>
+		<link rel="stylesheet" href="../css/styles.css">
+	</head>
+	<body>
+		<script src="../js/script.js"></script>
+		<header>
+			<div class="header-content">
+				<div class="header-content-left">
+					<h1>Gary Carroll Website</h1>
+				</div>
+				<div class="header-content-right">
+					<div class="parent">
+						<a href="skills.html#skillPython">
+							<img src="../images/python-logo.png" alt="Python" class="header-logo-1">
+							</a>
+						<div class="child">Python</div>
+					</div>
+					<div class="parent">
+						<a href="skills.html#skillR">
+							<img src="../images/r-logo.png" alt="R" class="header-logos">
+						</a>
+						<div class="child">R</div>
+					</div>
+					<div class="parent">
+						<a href="skills.html#skillSQL">
+							<img src="../images/sql-logo-2.png" alt="SQL" class="header-logos">
+						</a>
+						<div class="child">SQL</div>
+					</div>
+					<div class="parent">
+						<a href="skills.html#skillBash">
+							<img src="../images/bash-logo.png" alt="Bash" class="header-logos">
+						</a>
+						<div class="child">Bash</div>
+					</div>
+					<div class="parent">
+						<a href="skills.html#skillTableau">
+							<img src="../images/tableau-logo.png" alt="Tableau" class="header-logos">
+						</a>
+						<div class="child">Tableau</div>
+					</div>
+					<div class="parent">
+						<a href="skills.html#skillTableau">
+							<img src="../images/powerbi-logo.png" alt="Power BI" class="header-logos">
+						</a>
+						<div class="child">Power BI</div>
+					</div>					
+					<div class="parent">
+						<a href="skills.html#skillHTMLCSSJS">
+							<img src="../images/html-logo.png" alt="HTML" class="header-logos">
+							</a>
+						<div class="child">HTML</div>
+					</div>
+					<div class="parent">
+						<a href="skills.html#skillHTMLCSSJS">
+							<img src="../images/css-logo.png" alt="CSS" class="header-logos">
+							</a>
+						<div class="child">CSS</div>
+					</div>
+					<div class="parent">
+						<a href="skills.html#skillHTMLCSSJS">
+							<img src="../images/js-logo.png" alt="JavaScript" class="header-logos">
+							</a>
+						<div class="child">JS</div>
+					</div>
+
+				</div>
+			</div>
+			<nav>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li class="dropdown">
+    <a href="#">Projects <span class="arrow">&#9662;</span></a>
+    <ul class="dropdown-content">
+        <li><a href="chess.html">Chess</a></li>
+        <li><a href="countries.html">Countries</a></li>
+    </ul>
+</li>
+
+        <li><a href="skills.html">Skills</a></li>
+    </ul>
+</nav>
+		</header>
+
+		<div class="header-line"></div>
+		<br>
+
+		<div class="center-text-skills">
+
+            <h2 id="skillPython">Python</h2><br>
+			<p>
+            I first used Python for data analysis during my undergraduate physics labs.
+			One of these was a purely computational lab on 
+			 <a href="https://github.com/Gary-Carroll/Electrostatic-Randomisation" target="_blank">Electrostatic-Randomisation</a>. 
+			 During 4th year of this degree I completed all of the photometric analysis for my final year project using Python. The files and code can be found 
+			<a href="https://github.com/Gary-Carroll/Cepheid-Variable-Star-Photometry" target="_blank">here</a>.
+		The image shown to the right was created as part of my final year project. It shows the changing position of the Cepheid Variable star Y Aurigae on a 
+	<a href="https://en.wikipedia.org/wiki/Hertzsprung%E2%80%93Russell_diagram" target="_blank">Hertzsprung-Russel diagram</a> over its pulsation period.</p>
+			<p>I greatly improved my Python skills during my MSc in computer science, completing modules such as Python Programming, Python OOP, and 
+				Machine Learning with Python. I created a text-based fighting
+				<a href="https://github.com/Gary-Carroll/Python-Game" target="_blank">game</a> as part of the OOP module.</p>
+				<p>As part of my Master's project I created a web scraper to scrape 6 years of historical weather data and wrote a 
+					route generating algorithm in Python that formed the basis for our 6 person project.</p>
+					<p>Using Python I analysed my last 3000 Lichess chess <a href="chess.html">games</a>.</p>
+					<p>As part of my work in the NTMA, I set up Python for the data services team
+						and wrote the documentaion detailing its set-up and use. I implemented Python scripts into our ETL pipeline via TabPy in Tableau Prep flows.
+						I have used Python to train machine learning models, implement sensitive name masking into the ETL pipeline,
+						perform sentiment analysis on free-text fields, and perform similarity analysis on free-text fields.
+						I also wrote scripts to automatically verify the totals given in solicitor bills of cost in PDF format, and created a PyWebIO application to act as a 
+						front end for these scripts.
+					</p>
+					<p>I scraped and cleaned the data for the <a href="countries.html">Countries</a> page of this website using Python. The data comes from
+					<a href="https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area" target="_blank">Wikipedia</a>.</p>
+
+
+
+	
+<br><br>
+				<h2 id="skillR">R</h2><br>
+				<p>I first encountered R in a Data Programming with R module that I chose to do as part of my Master's. Since then I have used R extensively as part of my 
+					work in the NTMA. In this role I have used R to train machine learning models, manipulate geoJSON data to modify boundaries and create maps we did not
+					otherwise have access to, extract data from the Personal Injuries Guidelines
+					<a href="https://judicialcouncil.ie/assets/uploads/documents/Personal%20Injuries%20Guidelines.pdf" target="_blank">PDF</a>, and create a Shiny App 
+					frontend for this data for claims managers to use.</p><p>I was instrumental in the integration of R scripts into our ETL pipeline, setting up and documenting 
+					the use of Rserve to embed R scripts into Tableau Prep flows.</p>
+					<p>I used R to manipulate the underlying geoJSON file for the <a href="countries.html">Countries</a> page. Certain countries needed to have distant islands
+					or overseas territories removed.</p>
+				</p>
+
+				<br><br>
+				<h2 id="skillSQL">SQL</h2><br>
+				<p>I was introduced to SQL in my HDip module Relational Databases & Information Systems, where I was taught how to use MySql. I then administered a
+					MySQL database as part of a Software Engineering module's project to build an application showing Dublin Bike station availability and predicted
+					future availability. I completed multiple assignments using MySQL as part of a Big Data Programming Module.
+					<br>I acted as the data lead for my MSc research practicuum team and administered a PostgreSQL data base to supply data to the
+					application's frontend.
+				</p>
+				<p>As part of my role in the NTMA I write SQL queries in Oracle SQL Developer to extract data from an Oracle server. I wrote the SQL script that is embedded
+					in our ETL pipeline to detect and data quality issues.
+				</p>
+
+				<br><br>
+				<h2 id="skillBash">Bash</h2><br>
+					<p>I use Linux on my personal computer and am comfortable using the command line for file and system operations.
+						I also have experience writing Bash scripts to automate tasks and solve problems as part a Big Data Programming module.</p>
+				<br><br>
+
+				<h2 id="skillTableau">Tableau & Power BI</h2><br>
+				<p>In my data analyst role in the NTMA I use Tableau every day to create dashboards and prepare data for reports. I've created many dashboards that
+					are currently in production and used by teams across the NTMA. One such dashboard contains an interactive map of active claims in Garda divisions,
+					districts and stations across the country. When users select a division or district to drill down on, the map and other visuals are updated to
+					show the relevant information.<br>
+					I also make extensive use of Tableau Prep, creating flows to combine datasources, run data through machine learning models via embedded Python
+					or R scripts, and implement processing techniques such as sentiment analysis and text similarity analysis.<br>
+					Although I do not use it in my job, I have completed courses in Power BI and can use it proficiently.
+				</p><br><br>
+
+				<h2 id="skillHTMLCSSJS">HTML, CSS & JavaScript</h2><br>
+				<p>I first encountered HTML, CSS and JavaScript in a Web Application Development Module. In this module I made two websites using just these
+					technologies. I used these again as part of my Software Development module and Master's project and in building this website. This site is built 
+					without using any frameworks, only HTML, CSS and JavaScript.
+				</p>
+		</div>
+
+
+		<br><br>
+
+		<footer>
+    <p class="center-align">
+        &copy; 2025 Gary Carroll
+        <a href="#top" class="back-to-top">&#8679;</a>
+    </p>
+</footer>
+	</body>
+</html>

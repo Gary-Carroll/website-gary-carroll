@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background: #000000;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.header-content-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-content-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 4rem;
+}
+
+.header-content-right .parent:last-child {
+    margin-right: 4rem;
+}
+
+.header-logo-1 {
+    height: 60px;
+    width: auto;
+}
+
+.header-logos {
+    height: 60px;
+    width: auto;
+}
+
+.parent {
+    position: relative;
+    display: inline-block;
+}
+
+.child {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out;
+}
+
+.parent:hover .child {
+    opacity: 1;
+    top: 80%;
+}
+
+nav {
+    margin: 0;       /* reset margin to avoid pushing header-line */
+    padding: 0;
+    width: 100%;
+}
+
+/* Navigation list layout */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 12px;
+    display: block;
+}
+
+.dropdown .arrow {
+    font-size: 1em;
+    margin-left: 4px;
+    transition: transform 0.2s ease;
+}
+
+/* Dropdown menu styling */
+.dropdown-content {
+    display: none;
+    position: absolute;      /* remove from document flow */
+    top: 100%;
+    left: 0;
+    background-color: #111;
+    min-width: 160px;
+    z-index: 10;
+    border: 1px solid #333;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content li {
+    width: 100%;
+}
+
+.dropdown-content li a {
+    padding: 10px 15px;
+    text-align: left;
+    color: #fff;
+}
+
+.dropdown-content li a:hover {
+    background-color: #333;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+/* Smooth hover for dropdown parent */
+nav ul li a:hover {
+    background-color: #222;
+    border-radius: 4px;
+}
+
+footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    color: white;
+}
+
+.contentIndex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    padding: 3rem 3rem 0 3rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    min-height: calc(100vh - 200px);
+}
+
+.center-text {
+    text-align: center;
+    margin: 2rem auto 0;
+    width: 60%;
+}
+
+.center-text-skills {
+    text-align: center;
+    margin: 2rem auto 0;
+    width: 45%;
+}
+
+.text-section {
+    flex: 1;
+    color: white;
+    padding: 20px;
+    margin-right: 2rem;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem 0 0 0;
+}
+
+.image-section img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figcaption {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.bullet-points {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 1rem;
+}
+
+.bullet-points.dated li {
+    display: grid;
+    grid-template-columns: 1fr 20ch;
+    gap: 1rem;
+    align-items: baseline;
+}
+
+.bullet-points.dated .date {
+    white-space: nowrap;
+    text-align: right;
+}
+
+.header-line {
+    border-top: 1px solid white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    overflow: hidden;
+    height: calc(120vh);
+}
+
+.pdf-container {
+    overflow: auto;
+    width: 80%;
+    height: calc(110vh);
+}
+
+.pdf-viewer {
+    width: 100%;
+    height: 110vh;
+}
+
+.code-block {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    font-family: "Courier New", Courier, monospace;
+    overflow-x: auto;
+    display: inline-block;
+    margin: 0;
+    height: auto;
+    width: 85%;
+    text-align: left;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+}
+
+.line-number {
+    width: auto;
+    background-color: #444;
+    padding: 0 5px;
+    color: #ccc;
+}
+
+.code-block code {
+    white-space: pre-wrap;
+}
+
+.output-block {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    font-family: "Courier New", Courier, monospace;
+    overflow-x: auto;
+    display: inline-block;
+    margin: 0;
+    height: auto;
+    width: 85%;
+    text-align: left;
+    position: relative;
+}
+
+.output-title {
+    text-align: center;
+    width: auto;
+    background-color: #444;
+    color: #ccc;
+    padding: 2px 5px;
+    margin-bottom: 10px;
+    font-family: "Courier New", Courier, monospace;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.output-block code {
+    white-space: pre-wrap;
+}
+
+pre {
+    margin: 0;
+    padding: 0;
+}
+
+code {
+    display: inline;
+}
+
+a:link, a:visited, a:active {
+    color: white;
+}
+
+button {
+    background-color: #333333;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 7px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+button:active {
+    background-color: #777777;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+.copyMessage {
+    display: none;
+    color: white;
+    position: absolute;
+    left: 100%;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.copy-container {
+    position: relative;
+    display: inline-block;
+}
+
+p {
+    text-align: left;
+}
+
+.center-align {
+    text-align: center;
+}
+
+/* Countries page styles */
+#countries-page .title {
+    text-align: center;
+    margin: 2rem auto 1rem;
+    font-size: 24px;
+    width: 100%;
+    display: block;
+}
+
+#countries-page .bigText {
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#countries-page #controlsWrapper {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#countries-page #topLabel {
+    color: #D02030;
+    margin-bottom: 4px;
+    width: 500px;
+    position: relative;
+    left: calc(50% - 782px);
+    text-align: left;
+}
+
+#countries-page #bottomLabelWrapper {
+    width: 500px;
+    margin-left: calc(-1067px);
+    text-align: left;
+}
+
+#countries-page #canvasContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#countries-page #geoCanvasSmall,
+#countries-page #myCanvas,
+#countries-page #geoCanvasBig {
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+#countries-page .dropdown-container {
+    position: relative;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+#countries-page input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#countries-page .dropdown-list {
+    background: #000000;
+    border: 1px solid #555;
+    color: #ffffff;
+    display: none;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#countries-page .dropdown-item {
+    padding: 8px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#countries-page .dropdown-item:hover {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+#countries-page #bottomLabel {
+    color: #228B22;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+#countries-page #sentence {
+    margin-top: 0;
+    text-align: left;
+}
+
+.back-to-top {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.back-to-top:hover {
+    color: #ccc;
+}

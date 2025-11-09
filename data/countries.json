@@ -1,0 +1,1316 @@
+[
+  {
+    "Place": "Afghanistan",
+    "Total": 652864,
+    "Land": 652230,
+    "Water": 630
+  },
+  {
+    "Place": "Albania",
+    "Total": 28748,
+    "Land": 27400,
+    "Water": 330
+  },
+  {
+    "Place": "Algeria",
+    "Total": 2381741,
+    "Land": 2381741,
+    "Water": 0
+  },
+  {
+    "Place": "American Samoa",
+    "Total": 199,
+    "Land": 199,
+    "Water": 0
+  },
+  {
+    "Place": "Andorra",
+    "Total": 468,
+    "Land": 468,
+    "Water": 0
+  },
+  {
+    "Place": "Angola",
+    "Total": 1246700,
+    "Land": 1246700,
+    "Water": 0
+  },
+  {
+    "Place": "Anguilla",
+    "Total": 91,
+    "Land": 91,
+    "Water": 0
+  },
+  {
+    "Place": "Antarctica",
+    "Total": 14200000,
+    "Land": 14200000,
+    "Water": 0
+  },
+  {
+    "Place": "Antigua and Barbuda",
+    "Total": 442,
+    "Land": 442,
+    "Water": 0
+  },
+  {
+    "Place": "Argentina",
+    "Total": 2780400,
+    "Land": 2736690,
+    "Water": 43710
+  },
+  {
+    "Place": "Armenia",
+    "Total": 29743,
+    "Land": 28470,
+    "Water": 1270
+  },
+  {
+    "Place": "Aruba",
+    "Total": 180,
+    "Land": 180,
+    "Water": 0
+  },
+  {
+    "Place": "Australia",
+    "Total": 7741220,
+    "Land": 7682300,
+    "Water": 58920
+  },
+  {
+    "Place": "Austria",
+    "Total": 83878,
+    "Land": 82520,
+    "Water": 1359
+  },
+  {
+    "Place": "Azerbaijan",
+    "Total": 86600,
+    "Land": 82650,
+    "Water": 3950
+  },
+  {
+    "Place": "Bahamas",
+    "Total": 13880,
+    "Land": 10010,
+    "Water": 3870
+  },
+  {
+    "Place": "Bahrain",
+    "Total": 778,
+    "Land": 778,
+    "Water": 0
+  },
+  {
+    "Place": "Bangladesh",
+    "Total": 148460,
+    "Land": 130170,
+    "Water": 18290
+  },
+  {
+    "Place": "Barbados",
+    "Total": 431,
+    "Land": 431,
+    "Water": 0
+  },
+  {
+    "Place": "Belarus",
+    "Total": 207600,
+    "Land": 202900,
+    "Water": 4700
+  },
+  {
+    "Place": "Belgium",
+    "Total": 30528,
+    "Land": 30280,
+    "Water": 250
+  },
+  {
+    "Place": "Belize",
+    "Total": 22965,
+    "Land": 22810,
+    "Water": 160
+  },
+  {
+    "Place": "Benin",
+    "Total": 114763,
+    "Land": 112760,
+    "Water": 2000
+  },
+  {
+    "Place": "Bermuda",
+    "Total": 54,
+    "Land": 54,
+    "Water": 0
+  },
+  {
+    "Place": "Bhutan",
+    "Total": 38394,
+    "Land": 38140,
+    "Water": 250
+  },
+  {
+    "Place": "Bir Tawil",
+    "Total": 2060,
+    "Land": 2060,
+    "Water": 0
+  },
+  {
+    "Place": "Bolivia",
+    "Total": 1098581,
+    "Land": 1083300,
+    "Water": 15280
+  },
+  {
+    "Place": "Bosnia and Herzegovina",
+    "Total": 51209,
+    "Land": 51200,
+    "Water": 10
+  },
+  {
+    "Place": "Botswana",
+    "Total": 582000,
+    "Land": 566730,
+    "Water": 15000
+  },
+  {
+    "Place": "Brazil",
+    "Total": 8510346,
+    "Land": 8460415,
+    "Water": 55352
+  },
+  {
+    "Place": "Brunei",
+    "Total": 5765,
+    "Land": 5270,
+    "Water": 500
+  },
+  {
+    "Place": "Bulgaria",
+    "Total": 110879,
+    "Land": 108489,
+    "Water": 2390
+  },
+  {
+    "Place": "Burkina Faso",
+    "Total": 274200,
+    "Land": 273800,
+    "Water": 400
+  },
+  {
+    "Place": "Burundi",
+    "Total": 27834,
+    "Land": 25680,
+    "Water": 2150
+  },
+  {
+    "Place": "Cambodia",
+    "Total": 181035,
+    "Land": 176520,
+    "Water": 4520
+  },
+  {
+    "Place": "Cameroon",
+    "Total": 475650,
+    "Land": 472710,
+    "Water": 2730
+  },
+  {
+    "Place": "Canada",
+    "Total": 9984670,
+    "Land": 9093507,
+    "Water": 891163
+  },
+  {
+    "Place": "Cape Verde",
+    "Total": 4033,
+    "Land": 4033,
+    "Water": 0
+  },
+  {
+    "Place": "Central African Republic",
+    "Total": 622984,
+    "Land": 622984,
+    "Water": 0
+  },
+  {
+    "Place": "Chad",
+    "Total": 1284000,
+    "Land": 1259200,
+    "Water": 24800
+  },
+  {
+    "Place": "Chile",
+    "Total": 756102,
+    "Land": 743812,
+    "Water": 12290
+  },
+  {
+    "Place": "China",
+    "Total": 9596960,
+    "Land": 9326410,
+    "Water": 270550
+  },
+  {
+    "Place": "Colombia",
+    "Total": 1138910,
+    "Land": 1038700,
+    "Water": 100210
+  },
+  {
+    "Place": "Comoros",
+    "Total": 1861,
+    "Land": 1861,
+    "Water": 0
+  },
+  {
+    "Place": "Costa Rica",
+    "Total": 51100,
+    "Land": 51060,
+    "Water": 40
+  },
+  {
+    "Place": "Croatia",
+    "Total": 56594,
+    "Land": 55974,
+    "Water": 620
+  },
+  {
+    "Place": "Cuba",
+    "Total": 109884,
+    "Land": 103800,
+    "Water": 6080
+  },
+  {
+    "Place": "Curaçao",
+    "Total": 444,
+    "Land": 444,
+    "Water": 0
+  },
+  {
+    "Place": "Cyprus",
+    "Total": 9251,
+    "Land": 9241,
+    "Water": 10
+  },
+  {
+    "Place": "Czechia",
+    "Total": 78871,
+    "Land": 77187,
+    "Water": 1684
+  },
+  {
+    "Place": "Democratic Republic of the Congo",
+    "Total": 2344858,
+    "Land": 2267048,
+    "Water": 77810
+  },
+  {
+    "Place": "Denmark",
+    "Total": 42947,
+    "Land": 42434,
+    "Water": 660
+  },
+  {
+    "Place": "Djibouti",
+    "Total": 23200,
+    "Land": 23180,
+    "Water": 20
+  },
+  {
+    "Place": "Dominica",
+    "Total": 750,
+    "Land": 750,
+    "Water": 0
+  },
+  {
+    "Place": "Dominican Republic",
+    "Total": 48670,
+    "Land": 48320,
+    "Water": 350
+  },
+  {
+    "Place": "East Timor",
+    "Total": 14874,
+    "Land": 14874,
+    "Water": 0
+  },
+  {
+    "Place": "Ecuador",
+    "Total": 283561,
+    "Land": 276841,
+    "Water": 6720
+  },
+  {
+    "Place": "Egypt",
+    "Total": 1001450,
+    "Land": 995450,
+    "Water": 6000
+  },
+  {
+    "Place": "El Salvador",
+    "Total": 21041,
+    "Land": 20720,
+    "Water": 320
+  },
+  {
+    "Place": "Equatorial Guinea",
+    "Total": 28051,
+    "Land": 28051,
+    "Water": 0
+  },
+  {
+    "Place": "Eritrea",
+    "Total": 117600,
+    "Land": 101000,
+    "Water": 16600
+  },
+  {
+    "Place": "Estonia",
+    "Total": 45339,
+    "Land": 42388,
+    "Water": 2840
+  },
+  {
+    "Place": "Eswatini",
+    "Total": 17363,
+    "Land": 17200,
+    "Water": 160
+  },
+  {
+    "Place": "Ethiopia",
+    "Total": 1104300,
+    "Land": 1096570,
+    "Water": 7730
+  },
+  {
+    "Place": "Fiji",
+    "Total": 18272,
+    "Land": 18272,
+    "Water": 0
+  },
+  {
+    "Place": "Finland",
+    "Total": 338145,
+    "Land": 303815,
+    "Water": 34330
+  },
+  {
+    "Place": "France",
+    "Total": 551500,
+    "Land": 549970,
+    "Water": 1530
+  },
+  {
+    "Place": "Gabon",
+    "Total": 267668,
+    "Land": 257670,
+    "Water": 10000
+  },
+  {
+    "Place": "Gambia",
+    "Total": 11295,
+    "Land": 10120,
+    "Water": 1180
+  },
+  {
+    "Place": "Georgia",
+    "Total": 69700,
+    "Land": 69490,
+    "Water": 210
+  },
+  {
+    "Place": "Germany",
+    "Total": 357581,
+    "Land": 349390,
+    "Water": 7860
+  },
+  {
+    "Place": "Ghana",
+    "Total": 238537,
+    "Land": 227533,
+    "Water": 11000
+  },
+  {
+    "Place": "Gibraltar",
+    "Total": 6.8,
+    "Land": 6.8,
+    "Water": 0
+  },
+  {
+    "Place": "Greece",
+    "Total": 131957,
+    "Land": 128900,
+    "Water": 1310
+  },
+  {
+    "Place": "Greenland",
+    "Total": 2166086,
+    "Land": 2166086,
+    "Water": 0
+  },
+  {
+    "Place": "Grenada",
+    "Total": 345,
+    "Land": 340,
+    "Water": 0
+  },
+  {
+    "Place": "Guam",
+    "Total": 541,
+    "Land": 540,
+    "Water": 0
+  },
+  {
+    "Place": "Guatemala",
+    "Total": 108889,
+    "Land": 107160,
+    "Water": 1730
+  },
+  {
+    "Place": "Guernsey",
+    "Total": 78,
+    "Land": 78,
+    "Water": 0
+  },
+  {
+    "Place": "Guinea",
+    "Total": 245857,
+    "Land": 245717,
+    "Water": 140
+  },
+  {
+    "Place": "Guinea-Bissau",
+    "Total": 36125,
+    "Land": 28120,
+    "Water": 8010
+  },
+  {
+    "Place": "Guyana",
+    "Total": 214969,
+    "Land": 196850,
+    "Water": 18120
+  },
+  {
+    "Place": "Haiti",
+    "Total": 27750,
+    "Land": 27560,
+    "Water": 190
+  },
+  {
+    "Place": "Honduras",
+    "Total": 112492,
+    "Land": 111890,
+    "Water": 600
+  },
+  {
+    "Place": "Hong Kong",
+    "Total": 1114,
+    "Land": 1050,
+    "Water": 60
+  },
+  {
+    "Place": "Hungary",
+    "Total": 93025,
+    "Land": 91260,
+    "Water": 1770
+  },
+  {
+    "Place": "Iceland",
+    "Total": 103000,
+    "Land": 100830,
+    "Water": 2170
+  },
+  {
+    "Place": "India",
+    "Total": 3287263,
+    "Land": 2973190,
+    "Water": 314070
+  },
+  {
+    "Place": "Indonesia",
+    "Total": 1904569,
+    "Land": 1811569,
+    "Water": 93000
+  },
+  {
+    "Place": "Iran",
+    "Total": 1648195,
+    "Land": 1531595,
+    "Water": 116600
+  },
+  {
+    "Place": "Iraq",
+    "Total": 438317,
+    "Land": 437367,
+    "Water": 950
+  },
+  {
+    "Place": "Ireland",
+    "Total": 70273,
+    "Land": 68883,
+    "Water": 1390
+  },
+  {
+    "Place": "Isle of Man",
+    "Total": 572,
+    "Land": 570,
+    "Water": 0
+  },
+  {
+    "Place": "Israel",
+    "Total": 21937,
+    "Land": 21497,
+    "Water": 440
+  },
+  {
+    "Place": "Italy",
+    "Total": 302068,
+    "Land": 295717,
+    "Water": 6350
+  },
+  {
+    "Place": "Ivory Coast",
+    "Total": 322462,
+    "Land": 318000,
+    "Water": 4460
+  },
+  {
+    "Place": "Jamaica",
+    "Total": 10991,
+    "Land": 10830,
+    "Water": 160
+  },
+  {
+    "Place": "Japan",
+    "Total": 377915,
+    "Land": 364485,
+    "Water": 13430
+  },
+  {
+    "Place": "Jersey",
+    "Total": 116,
+    "Land": 116,
+    "Water": 0
+  },
+  {
+    "Place": "Jordan",
+    "Total": 89318,
+    "Land": 88794,
+    "Water": 524
+  },
+  {
+    "Place": "Kazakhstan",
+    "Total": 2724910,
+    "Land": 2699700,
+    "Water": 25202
+  },
+  {
+    "Place": "Kenya",
+    "Total": 580367,
+    "Land": 569140,
+    "Water": 11227
+  },
+  {
+    "Place": "Kiribati",
+    "Total": 811,
+    "Land": 811,
+    "Water": 0
+  },
+  {
+    "Place": "Kosovo",
+    "Total": 10887,
+    "Land": 10887,
+    "Water": 0
+  },
+  {
+    "Place": "Kuwait",
+    "Total": 17818,
+    "Land": 17818,
+    "Water": 0
+  },
+  {
+    "Place": "Kyrgyzstan",
+    "Total": 199949,
+    "Land": 191800,
+    "Water": 8150
+  },
+  {
+    "Place": "Laos",
+    "Total": 236800,
+    "Land": 230800,
+    "Water": 6000
+  },
+  {
+    "Place": "Latvia",
+    "Total": 64594,
+    "Land": 62230,
+    "Water": 2370
+  },
+  {
+    "Place": "Lebanon",
+    "Total": 10452,
+    "Land": 10230,
+    "Water": 220
+  },
+  {
+    "Place": "Lesotho",
+    "Total": 30355,
+    "Land": 30355,
+    "Water": 0
+  },
+  {
+    "Place": "Liberia",
+    "Total": 111369,
+    "Land": 96320,
+    "Water": 15049
+  },
+  {
+    "Place": "Libya",
+    "Total": 1759540,
+    "Land": 1759540,
+    "Water": 0
+  },
+  {
+    "Place": "Liechtenstein",
+    "Total": 160,
+    "Land": 160,
+    "Water": 0
+  },
+  {
+    "Place": "Lithuania",
+    "Total": 65286,
+    "Land": 62610,
+    "Water": 2680
+  },
+  {
+    "Place": "Luxembourg",
+    "Total": 2586,
+    "Land": 2574,
+    "Water": 16
+  },
+  {
+    "Place": "Madagascar",
+    "Total": 587041,
+    "Land": 581540,
+    "Water": 5501
+  },
+  {
+    "Place": "Malawi",
+    "Total": 118484,
+    "Land": 94080,
+    "Water": 24404
+  },
+  {
+    "Place": "Malaysia",
+    "Total": 330621,
+    "Land": 329432,
+    "Water": 1190
+  },
+  {
+    "Place": "Maldives",
+    "Total": 300,
+    "Land": 300,
+    "Water": 0
+  },
+  {
+    "Place": "Mali",
+    "Total": 1240192,
+    "Land": 1220190,
+    "Water": 20000
+  },
+  {
+    "Place": "Malta",
+    "Total": 315,
+    "Land": 315,
+    "Water": 0
+  },
+  {
+    "Place": "Marshall Islands",
+    "Total": 181,
+    "Land": 180,
+    "Water": 0
+  },
+  {
+    "Place": "Mauritania",
+    "Total": 1030700,
+    "Land": 1030700,
+    "Water": 0
+  },
+  {
+    "Place": "Mauritius",
+    "Total": 2040,
+    "Land": 2030,
+    "Water": 10
+  },
+  {
+    "Place": "Mexico",
+    "Total": 1964375,
+    "Land": 1943950,
+    "Water": 20425
+  },
+  {
+    "Place": "Micronesia",
+    "Total": 702,
+    "Land": 700,
+    "Water": 0
+  },
+  {
+    "Place": "Moldova",
+    "Total": 33847,
+    "Land": 32970,
+    "Water": 880
+  },
+  {
+    "Place": "Monaco",
+    "Total": 2,
+    "Land": 2,
+    "Water": 0
+  },
+  {
+    "Place": "Mongolia",
+    "Total": 1564116,
+    "Land": 1557507,
+    "Water": 6609
+  },
+  {
+    "Place": "Montenegro",
+    "Total": 13812,
+    "Land": 13452,
+    "Water": 360
+  },
+  {
+    "Place": "Montserrat",
+    "Total": 103,
+    "Land": 100,
+    "Water": 0
+  },
+  {
+    "Place": "Morocco",
+    "Total": 446550,
+    "Land": 446300,
+    "Water": 250
+  },
+  {
+    "Place": "Mozambique",
+    "Total": 799380,
+    "Land": 786380,
+    "Water": 13000
+  },
+  {
+    "Place": "Myanmar",
+    "Total": 676578,
+    "Land": 653508,
+    "Water": 23070
+  },
+  {
+    "Place": "Namibia",
+    "Total": 824292,
+    "Land": 823290,
+    "Water": 1002
+  },
+  {
+    "Place": "Nauru",
+    "Total": 21,
+    "Land": 20,
+    "Water": 0
+  },
+  {
+    "Place": "Nepal",
+    "Total": 147181,
+    "Land": 143350,
+    "Water": 3830
+  },
+  {
+    "Place": "Netherlands",
+    "Total": 41865,
+    "Land": 33893,
+    "Water": 7650
+  },
+  {
+    "Place": "New Caledonia",
+    "Total": 18575,
+    "Land": 18275,
+    "Water": 300
+  },
+  {
+    "Place": "New Zealand",
+    "Total": 268838,
+    "Land": 264537,
+    "Water": 4301
+  },
+  {
+    "Place": "Nicaragua",
+    "Total": 130373,
+    "Land": 120340,
+    "Water": 10030
+  },
+  {
+    "Place": "Niger",
+    "Total": 1267000,
+    "Land": 1266700,
+    "Water": 300
+  },
+  {
+    "Place": "Nigeria",
+    "Total": 923768,
+    "Land": 910770,
+    "Water": 13000
+  },
+  {
+    "Place": "Niue",
+    "Total": 260,
+    "Land": 260,
+    "Water": 0
+  },
+  {
+    "Place": "Norfolk Island",
+    "Total": 36,
+    "Land": 36,
+    "Water": 0
+  },
+  {
+    "Place": "North Korea",
+    "Total": 120538,
+    "Land": 120410,
+    "Water": 130
+  },
+  {
+    "Place": "North Macedonia",
+    "Total": 25713,
+    "Land": 25220,
+    "Water": 490
+  },
+  {
+    "Place": "Norway",
+    "Total": 386224,
+    "Land": 366704,
+    "Water": 19520
+  },
+  {
+    "Place": "Oman",
+    "Total": 309500,
+    "Land": 309500,
+    "Water": 0
+  },
+  {
+    "Place": "Pakistan",
+    "Total": 882363,
+    "Land": 857143,
+    "Water": 25220
+  },
+  {
+    "Place": "Palau",
+    "Total": 459,
+    "Land": 459,
+    "Water": 0
+  },
+  {
+    "Place": "Palestine",
+    "Total": 6020,
+    "Land": 6025,
+    "Water": 0
+  },
+  {
+    "Place": "Panama",
+    "Total": 75320,
+    "Land": 74180,
+    "Water": 1143
+  },
+  {
+    "Place": "Papua New Guinea",
+    "Total": 462840,
+    "Land": 452860,
+    "Water": 9980
+  },
+  {
+    "Place": "Paraguay",
+    "Total": 406752,
+    "Land": 397300,
+    "Water": 9452
+  },
+  {
+    "Place": "Peru",
+    "Total": 1285216,
+    "Land": 1279996,
+    "Water": 5220
+  },
+  {
+    "Place": "Philippines",
+    "Total": 300000,
+    "Land": 298170,
+    "Water": 1830
+  },
+  {
+    "Place": "Poland",
+    "Total": 312685,
+    "Land": 304255,
+    "Water": 8430
+  },
+  {
+    "Place": "Portugal",
+    "Total": 92225,
+    "Land": 91606,
+    "Water": 620
+  },
+  {
+    "Place": "Puerto Rico",
+    "Total": 9100,
+    "Land": 8868,
+    "Water": 232
+  },
+  {
+    "Place": "Qatar",
+    "Total": 11586,
+    "Land": 11586,
+    "Water": 0
+  },
+  {
+    "Place": "Congo",
+    "Total": 342000,
+    "Land": 341500,
+    "Water": 500
+  },
+  {
+    "Place": "Romania",
+    "Total": 238398,
+    "Land": 230080,
+    "Water": 8320
+  },
+  {
+    "Place": "Russia",
+    "Total": 17098246,
+    "Land": 16376870,
+    "Water": 721380
+  },
+  {
+    "Place": "Rwanda",
+    "Total": 26338,
+    "Land": 24670,
+    "Water": 1670
+  },
+  {
+    "Place": "Saint Kitts and Nevis",
+    "Total": 261,
+    "Land": 261,
+    "Water": 0
+  },
+  {
+    "Place": "Saint Lucia",
+    "Total": 616,
+    "Land": 610,
+    "Water": 10
+  },
+  {
+    "Place": "Saint Vincent and the Grenadines",
+    "Total": 389,
+    "Land": 389,
+    "Water": 0
+  },
+  {
+    "Place": "Samoa",
+    "Total": 2842,
+    "Land": 2780,
+    "Water": 10
+  },
+  {
+    "Place": "San Marino",
+    "Total": 61,
+    "Land": 61,
+    "Water": 0
+  },
+  {
+    "Place": "Saudi Arabia",
+    "Total": 2149690,
+    "Land": 2149690,
+    "Water": 0
+  },
+  {
+    "Place": "Senegal",
+    "Total": 196712,
+    "Land": 192530,
+    "Water": 4180
+  },
+  {
+    "Place": "Serbia",
+    "Total": 88499,
+    "Land": 88499,
+    "Water": 0
+  },
+  {
+    "Place": "Seychelles",
+    "Total": 457,
+    "Land": 457,
+    "Water": 0
+  },
+  {
+    "Place": "Sierra Leone",
+    "Total": 72300,
+    "Land": 72180,
+    "Water": 120
+  },
+  {
+    "Place": "Singapore",
+    "Total": 736,
+    "Land": 726,
+    "Water": 10
+  },
+  {
+    "Place": "Sint Maarten",
+    "Total": 34,
+    "Land": 34,
+    "Water": 0
+  },
+  {
+    "Place": "Slovakia",
+    "Total": 49035,
+    "Land": 48080,
+    "Water": 950
+  },
+  {
+    "Place": "Slovenia",
+    "Total": 20273,
+    "Land": 20151,
+    "Water": 122
+  },
+  {
+    "Place": "Solomon Islands",
+    "Total": 28896,
+    "Land": 27990,
+    "Water": 910
+  },
+  {
+    "Place": "Somalia",
+    "Total": 637657,
+    "Land": 627340,
+    "Water": 10320
+  },
+  {
+    "Place": "Somaliland",
+    "Total": 177000,
+    "Land": 177000,
+    "Water": 0
+  },
+  {
+    "Place": "South Africa",
+    "Total": 1219090,
+    "Land": 1214470,
+    "Water": 4620
+  },
+  {
+    "Place": "South Korea",
+    "Total": 100432,
+    "Land": 97600,
+    "Water": 2800
+  },
+  {
+    "Place": "South Sudan",
+    "Total": 644329,
+    "Land": 644329,
+    "Water": 0
+  },
+  {
+    "Place": "Spain",
+    "Total": 505370,
+    "Land": 498980,
+    "Water": 6390
+  },
+  {
+    "Place": "Sri Lanka",
+    "Total": 65610,
+    "Land": 61860,
+    "Water": 3750
+  },
+  {
+    "Place": "Sudan",
+    "Total": 1861484,
+    "Land": 1731671,
+    "Water": 129813
+  },
+  {
+    "Place": "Suriname",
+    "Total": 163820,
+    "Land": 156000,
+    "Water": 7820
+  },
+  {
+    "Place": "Sweden",
+    "Total": 450295,
+    "Land": 407284,
+    "Water": 40142
+  },
+  {
+    "Place": "Switzerland",
+    "Total": 41291,
+    "Land": 39510,
+    "Water": 1781
+  },
+  {
+    "Place": "Syria",
+    "Total": 185180,
+    "Land": 183630,
+    "Water": 1550
+  },
+  {
+    "Place": "São Tomé and Príncipe",
+    "Total": 964,
+    "Land": 964,
+    "Water": 0
+  },
+  {
+    "Place": "Taiwan",
+    "Total": 35980,
+    "Land": 32260,
+    "Water": 3720
+  },
+  {
+    "Place": "Tajikistan",
+    "Total": 144100,
+    "Land": 141510,
+    "Water": 2590
+  },
+  {
+    "Place": "Tanzania",
+    "Total": 947303,
+    "Land": 885800,
+    "Water": 61500
+  },
+  {
+    "Place": "Thailand",
+    "Total": 513120,
+    "Land": 510890,
+    "Water": 2230
+  },
+  {
+    "Place": "Togo",
+    "Total": 56785,
+    "Land": 54390,
+    "Water": 2400
+  },
+  {
+    "Place": "Tonga",
+    "Total": 747,
+    "Land": 720,
+    "Water": 30
+  },
+  {
+    "Place": "Trinidad and Tobago",
+    "Total": 5127,
+    "Land": 5127,
+    "Water": 0
+  },
+  {
+    "Place": "Tunisia",
+    "Total": 163610,
+    "Land": 155360,
+    "Water": 8250
+  },
+  {
+    "Place": "Turkey",
+    "Total": 783562,
+    "Land": 769632,
+    "Water": 13930
+  },
+  {
+    "Place": "Turkmenistan",
+    "Total": 488100,
+    "Land": 469930,
+    "Water": 18170
+  },
+  {
+    "Place": "Tuvalu",
+    "Total": 26,
+    "Land": 26,
+    "Water": 0
+  },
+  {
+    "Place": "Uganda",
+    "Total": 241550,
+    "Land": 200520,
+    "Water": 41030
+  },
+  {
+    "Place": "Ukraine",
+    "Total": 603550,
+    "Land": 579330,
+    "Water": 24220
+  },
+  {
+    "Place": "United Arab Emirates",
+    "Total": 83600,
+    "Land": 82880,
+    "Water": 720
+  },
+  {
+    "Place": "United Kingdom",
+    "Total": 244376,
+    "Land": 242741,
+    "Water": 1635
+  },
+  {
+    "Place": "United States of America",
+    "Total": 9525067,
+    "Land": 9147593,
+    "Water": 377424
+  },
+  {
+    "Place": "Uruguay",
+    "Total": 176215,
+    "Land": 175015,
+    "Water": 1200
+  },
+  {
+    "Place": "Uzbekistan",
+    "Total": 447400,
+    "Land": 425400,
+    "Water": 22000
+  },
+  {
+    "Place": "Vanuatu",
+    "Total": 12189,
+    "Land": 12189,
+    "Water": 0
+  },
+  {
+    "Place": "Vatican City",
+    "Total": 0.49,
+    "Land": 0.49,
+    "Water": 0
+  },
+  {
+    "Place": "Venezuela",
+    "Total": 912050,
+    "Land": 882050,
+    "Water": 30000
+  },
+  {
+    "Place": "Vietnam",
+    "Total": 331340,
+    "Land": 313429,
+    "Water": 17801
+  },
+  {
+    "Place": "Yemen",
+    "Total": 455503,
+    "Land": 455503,
+    "Water": 0
+  },
+  {
+    "Place": "Zambia",
+    "Total": 752612,
+    "Land": 743390,
+    "Water": 9220
+  },
+  {
+    "Place": "Zimbabwe",
+    "Total": 390757,
+    "Land": 386850,
+    "Water": 3910
+  },
+  {
+    "Place": "Åland",
+    "Total": 1581,
+    "Land": 1553,
+    "Water": 28
+  }
+]
