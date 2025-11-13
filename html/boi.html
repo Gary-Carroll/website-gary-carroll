@@ -92,18 +92,41 @@
 </header>
 <div class="header-line"></div>
 <br>
-<div class="center-text">
-    <h1>Converter: Bank of Ireland PDF Statement to Spreadsheet</h1><br><br>
+<div class="center-text-skills">
+    <h1>Bank of Ireland PDF Statement to Spreadsheet Converter</h1><br><br>
     <p>When trying to analyse my monthly expenditure, I encountered the problem of my bank statements only being available as PDFs. Ideally the bank would provide
         a spreadsheet of all transactions but this is not the case. To solve this issue, I wrote a Python
         <a class="accent-link" href="https://github.com/Gary-Carroll/boi-statement-to-csv" target="_blank">script</a>
         that takes in the PDF statement and returns the transaction data in a table that can be saved as a spreadsheet and easily analysed.
         This script works on Bank of Ireland statements and while it is fairly robust, it assumes the format of the statement does not drastically change,
-        which it likely won't.<br>
-        Here is an example of a page from a Bank of Ireland statement. The transactions and figures have been randomised.<br><br>
-        <img src="../images/boi_before.png" alt="Bank statement before processing"  class="statement-img">
-
+        which it likely won't. Below is a sample PDF statement page, shown both before and after processing by the script.<br><br>
+		I initially tried to simply extract the table using <i>tabula</i>'s <span class="function-code">read_pdf</span> function. On many pages the tables were
+		partially recognised, with the bottom part often ignored. I tried to specify the bounding area of each column in the <span class="function-code">read_pdf</span>
+		call, but this did not cause the full table to be reliably captured. Adjusting the stream and guess arguments didn't solve the problem.<br><br>
+		To force <i>tabula</i> to extract the full correct table from each page, I added used <i>pdfplumber</i> and <i>fitz</i> to first draw the column boundary boxes.
+		The coordinates of the vertical parts of these boxes were determined by taking the coordinates of an entry in each column and the adjusting slightly to the
+		left of this position.<br><br>
+		<i>tabula</i> still did not correctly identify each table even with these column boundaries, so the next step was to add horizontal lines to differentiate the
+		rows. As you can see in the page examples below, the word "BALANCE" appears at the top of the table and this is true for every page of the PDF that contains
+		transactional data. This word is detected on each page and the topmost boundary of the table is drawn slightly above this position. A horizonal line is then
+		drawn every 12.1 units down the page until it reaches the specified table bottom. The final page in the statement will have a shorter table but it is easy to
+		remove any erroneously captured text. Now that the table and row boundaries are definitively defined, <i>tabula</i> can correctly read the table on each page.
+		Once this is complete, proper column headings are added, the date values are cascaded, and the extra columns from the final page are removed. This data is now
+		neatly formatted and ready to be used in analysis and saved as a spreadsheet. Below shows how each page looks once the lines are drawn.<br><br>
     </p>
+	</div>
+	<div class="center-text">
+	<div class="image-row">
+        <figure>
+        <img src="../images/boi_before.png" alt="Bank statement before processing" class="statement-img">
+        <figcaption>Before processing</figcaption>
+    </figure>
+
+    <figure>
+        <img src="../images/boi_after.png" alt="Bank statement after processing" class="statement-img">
+        <figcaption>After processing: boundary lines added</figcaption><br>
+    </figure>
+</div>
 </div>
 
 <footer>

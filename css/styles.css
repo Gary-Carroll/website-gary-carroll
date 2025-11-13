@@ -237,12 +237,29 @@ h2 {
     max-width: 100%;
 }
 
-.statement-img {
-    width: 60%;
-    height: auto; /* maintains aspect ratio */
-    display: block;
-    margin: 1rem auto;  /* centres the image */
+/* Container for side-by-side images */
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;      
+    flex-wrap: wrap;   
+    margin: 2rem 0;
 }
+
+/* Image and caption layout */
+.image-row figure {
+    width: 45%;        
+    text-align: center;
+    margin: 0;
+}
+
+.statement-img {
+    width: 100%;     
+    height: auto;  
+    display: block;
+    margin: 0 auto;
+}
+
 
 
 figure {
@@ -369,6 +386,14 @@ pre {
 
 code {
     display: inline;
+}
+
+.function-code {
+    font-family: monospace;
+    background-color: #222;
+    color: #eee;
+    padding: 0.15rem 0.3rem;
+    border-radius: 4px;
 }
 
 
