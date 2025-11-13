@@ -81,7 +81,7 @@
     <ul class="dropdown-content">
         <li><a href="chess.html">Chess</a></li>
         <li><a href="countries.html">Countries</a></li>
-		<li><a href="boi.html">Bank Statement Converter</a></li>
+        <li><a href="boi.html">Bank Statement Converter</a></li>
     </ul>
 </li>
 
@@ -92,31 +92,20 @@
 </header>
 <div class="header-line"></div>
 <br>
-<h2 class="title">Country Size Visualiser</h2>
-<div class="content">
-<div id="controlsWrapper">
-<div class="dropdown-container">
-<div class="bigText">Select two countries to compare:</div>
-<input type="text" id="country1Input" placeholder="Select first area" />
-<div id="country1List" class="dropdown-list"></div>
-</div>
-<div class="dropdown-container">
-<input type="text" id="country2Input" placeholder="Select second area" />
-<div id="country2List" class="dropdown-list"></div>
-</div>
-<div id="topLabel" class="bigText"></div>
+<div class="center-text">
+    <h1>Converter: Bank of Ireland PDF Statement to Spreadsheet</h1><br><br>
+    <p>When trying to analyse my monthly expenditure, I encountered the problem of my bank statements only being available as PDFs. Ideally the bank would provide
+        a spreadsheet of all transactions but this is not the case. To solve this issue, I wrote a Python
+        <a class="accent-link" href="https://github.com/Gary-Carroll/boi-statement-to-csv" target="_blank">script</a>
+        that takes in the PDF statement and returns the transaction data in a table that can be saved as a spreadsheet and easily analysed.
+        This script works on Bank of Ireland statements and while it is fairly robust, it assumes the format of the statement does not drastically change,
+        which it likely won't.<br>
+        Here is an example of a page from a Bank of Ireland statement. The transactions and figures have been randomised.<br><br>
+        <img src="../images/boi_before.png" alt="Bank statement before processing"  class="statement-img">
+
+    </p>
 </div>
 
-<div id="canvasContainer">
-<canvas id="myCanvas" width="500" height="500"></canvas>
-<canvas id="geoCanvasSmall" width="500" height="500"></canvas>
-<canvas id="geoCanvasBig" width="500" height="500"></canvas>
-</div>
-<div id="bottomLabelWrapper">
-<div id="bottomLabel" class="bigText"></div>
-<div id="sentence" class="bigText"></div>
-</div>
-</div>
 <footer>
 <p class="center-align">
         &copy; 2025 Gary Carroll

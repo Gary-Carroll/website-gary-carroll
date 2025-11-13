@@ -158,6 +158,28 @@ footer {
     bottom: 0;
 }
 
+/* Default link styles */
+a:link,
+a:visited,
+a:active {
+    color: white;
+}
+
+/* Accent links — override the above */
+a.accent-link:link,
+a.accent-link:visited,
+a.accent-link:active {
+    color: #66ccff;
+    text-decoration: none;
+}
+
+/* Optional hover effect */
+a.accent-link:hover {
+    color: #99e6ff;
+    text-decoration: underline;
+}
+
+
 h1 {
     font-size: 36px;
 }
@@ -214,6 +236,14 @@ h2 {
 .image-section img {
     max-width: 100%;
 }
+
+.statement-img {
+    width: 60%;
+    height: auto; /* maintains aspect ratio */
+    display: block;
+    margin: 1rem auto;  /* centres the image */
+}
+
 
 figure {
     margin: 0;
@@ -341,9 +371,6 @@ code {
     display: inline;
 }
 
-a:link, a:visited, a:active {
-    color: white;
-}
 
 button {
     background-color: #333333;
